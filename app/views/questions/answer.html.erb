@@ -1,13 +1,5 @@
 <p>
-  <%= @answer %>
-<br>
-  - You
+  <%= @answer.capitalize %>?  <%= @msg %>
 </p>
 
-<p>
-  <%= @msg %>
-<br>
-  - Coach
-</p>
-
-<%= link_to "Ask something else", ask_path %>
+<%= link_to "Anything else?", ask_path %>
